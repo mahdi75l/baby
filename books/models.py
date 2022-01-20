@@ -16,8 +16,8 @@ class Category(models.Model):
 
 
 class Book(models.Model):
-    ELECTRONIC_BOOK=1
-    VOCAL_BOOK=2
+    ELECTRONIC_BOOK = 1
+    VOCAL_BOOK = 2
 
     BOOK_STATUS = (
         (ELECTRONIC_BOOK, 'electronic book'),
